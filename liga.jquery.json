@@ -1,0 +1,29 @@
+{
+ "name"    : "liga",
+ "description": "jquery.liga.js no sólo es un plugin para JQuery, es toda una suite de funcionalidades que facilitan el desarrollo de aplicaciones web, posee funciones para arrojar ventanas de alerta, preguntas, localStorage, notificaciones, validación de formularios, envíos ajax y gestión del historial.",
+ "version" : "1.3.13",
+ "title"   : "LIGA.js",
+ "author"  : {
+  "name" : "Oscar Galileo García García",
+  "email" : "oscargalileo@gmail.com",
+  "url"  : "https://plus.google.com/112403136871331686485"
+ },
+ "keywords": [
+      "ui", "ajax", "validation", "localStorage", "notifications", "cookies", "modal", "fileupload"
+      ],
+ "licenses": [{
+  "type" : "bsd-3-clause",
+  "url"  : "http://opensource.org/licenses/BSD-3-Clause"
+ }],
+ "dependencies" : {"jquery" : "1.x"},
+ "homepage" : "https://github.com/oscargalileo/jquery.liga.js",
+ "docs" : "http://goo.gl/Gxwp1",
+ "demo" : "http://jsfiddle.net/oscargalileo/TX8D3/",
+ "download" : "https://github.com/oscargalileo/jquery.liga.js/tags",
+ "maintainers": [
+    {
+      "name": "Oscar Galileo García García",
+      "email": "oscargalileo@gmail.com",
+      "url": "https://plus.google.com/112403136871331686485"
+    } ]
+}
