@@ -62,7 +62,8 @@
   $campos = array('cual'=>$select, '*', '-fecha');
   HTML::forma($liga, 'Modificar '.$tabla, $campos, $props, true);
  $cont = ob_get_clean();
- $config("js/jquery.liga-1.3.13.js", "js/codigo.js")
+ $config = array('js' => array 'jquery-3.1.1.min.js', 'js/jquery.liga-1.3.13.js',
+																	'js/codigo.js', 'jquery-ui.min.js');
   // Estuctura el cuerpo de la página
   HTML::cuerpo(array('cont'=>$cont));
   echo '<a href="enrutador/">Probar enrutador (RUTA)</a>';

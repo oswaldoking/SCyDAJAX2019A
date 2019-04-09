@@ -7,6 +7,11 @@
  RUTA::nueva('holaMundo', function() {
   echo '<h1>Hola mundo con el enrutador de LIGA.php</h1>';
  });
+	
+	 RUTA::nueva('tablausuarios', function() {
+  echo '<h1>Hola mundo con el enrutador de LIGA.php</h1>';
+ });
+		
   // Imprimo las etiquetas HTML iniciales
   HTML::cabeceras(array('title'      =>'RUTA en LIGA 3',
 			'description'=>'Página de pruebas para RUTA de LIGA 3',
